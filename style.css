@@ -1,0 +1,17 @@
+button{
+    font-size:20px;
+    border:1px solid rgb(114, 138, 247);       /*ボタンの枠線の色と太さ*/
+    border-radius: 10px;      /*ボタンの角の丸さ*/
+    padding: 10px 30px;       /*ボタンの縦横比*/  
+    margin: auto;             /*中央寄せ*/
+    color:rgb(255, 255, 255);   /*文字の色*/
+    background-color: rgb(93, 148, 180);  /*ボタンの色*/
+}
+.bu{
+    display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+img{
+  width: 100vw;
+}
