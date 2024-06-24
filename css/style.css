@@ -1,0 +1,38 @@
+body {
+  font-size: 5px; /* ベースとなるフォントサイズを設定 */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around; /* ボタンを等間隔に配置 */
+  align-items: center; /* ボタンを中央に配置 */
+  height: 200px; /* コンテナの高さを設定 */
+  max-width: 100%; /* コンテナの最大幅を100%に設定 */
+  margin: 0 auto; /* 水平方向に中央寄せ */
+  padding: 0 20px; /* 左右に余白を追加 */
+}
+
+button {
+  flex: 1; /* ボタンを均等に広げる */
+  font-size: 3rem; /* ボタンのフォントサイズを相対的に指定 */
+  border: 3px solid rgb(114, 138, 247); /* ボタンの枠線の色と太さ */
+  border-radius: 20px; /* ボタンの角の丸さ */
+  padding: 10px 20px; /* ボタンの内側の余白 */
+  color: rgb(255, 255, 255); /* 文字の色 */
+  background-color: rgb(93, 148, 180); /* ボタンの背景色 */
+  max-width: 100%; /* ボタンの最大幅を100%に設定 */
+  margin: 0 10px; /* ボタン同士の間隔 */
+}
+
+.bu {
+    display: flex;
+    justify-content: center; /* ボタンを中央に配置 */
+    margin-top: 50px; /* 上部のマージンを50pxに変更 */
+    padding: 0 20px; /* 左右の余白 */
+
+}
+
+img {
+  max-width: 90%; /* 画像の最大幅を90%に設定 */
+    height: auto; /* アスペクト比を維持しつつ高さを自動調整 */
+}
