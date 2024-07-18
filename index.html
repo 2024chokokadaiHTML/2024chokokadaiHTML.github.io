@@ -18,7 +18,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <style>
+   <style>
         body {
             background-color: #cbfcff;
             font-size: 5px;
@@ -44,13 +44,6 @@
             white-space: nowrap;
             -webkit-overflow-scrolling: touch;
         }
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
-        }
         .button {
             font-family: 'Courier', sans-serif;
             text-align: center;
@@ -65,7 +58,7 @@
             margin-bottom: 20px;
             transition: background-color 0.3s;
         }
-        .button:active {
+        .active {
             background-color: red; /* 押したときの色 */
         }
         @media screen and (max-width: 1119px) {
@@ -81,12 +74,26 @@
 <body>
     <div class="bu">
         <div class="button-container">
-            <button class="button" onclick="changeImage(1)">1F</button>
-            <button class="button" onclick="changeImage(2)">2F</button>
-            <button class="button" onclick="changeImage(3)">3F</button>
-            <button class="button" onclick="changeImage(4)">4F</button>
+            <button class="button" onclick="changeImage(1, this)">1F</button>
+            <button class="button" onclick="changeImage(2, this)">2F</button>
+            <button class="button" onclick="changeImage(3, this)">3F</button>
+            <button class="button" onclick="changeImage(4, this)">4F</button>
         </div>
     </div>
+
+    <script>
+        function changeImage(floor, button) {
+            // すべてのボタンからactiveクラスを削除
+            const buttons = document.querySelectorAll('.button');
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            // クリックしたボタンにactiveクラスを追加
+            button.classList.add('active');
+
+            // ここに画像変更のロジックを追加
+            console.log(`Selected floor: ${floor}`);
+        }
+    </script>
 </body>
 </html>
 
