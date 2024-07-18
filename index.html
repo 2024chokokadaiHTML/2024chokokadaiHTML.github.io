@@ -56,23 +56,21 @@
             height: auto; /* アスペクト比を維持しつつ高さを自動調整 */
             margin-top: 20px; /* 上部のマージンを追加 */
         }
-
-        button {
-            font-family: 'Courier', sans-serif;
-            text-align: center;
-            font-size: 1.5rem; /* ボタンのフォントサイズを設定 */
-            border: 3px solid rgb(187, 128, 243); /* ボタンの枠線の色と太さ */
-            border-radius: 20px; /* ボタンの角の丸さ */
-            padding: 10px 10px; /* ボタンの内側の余白 */
-            color: rgb(255, 255, 255); /* 文字の色 */
-            background-color: rgb(78, 156, 201); /* ボタンの背景色 */
-            margin: 0 10px; /* ボタン同士の間隔 */
-            width: 60px; /* ボタンの幅を固定 */
-            margin-bottom: 20px;
+          .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
+
         .button:active {
             background-color: red; /* 押したときの色 */
         }
+
         
         @media screen and (max-width: 1119px) {
         .button-container {
