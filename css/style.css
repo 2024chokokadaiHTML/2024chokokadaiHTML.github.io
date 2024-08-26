@@ -2,6 +2,7 @@ body {
   font-size: 5px; /* ベースとなるフォントサイズを設定 */
 }
 .color-box {
+    font-size: 5px; 
     width: 100px; /* ボックスの幅 */
     height: 100px; /* ボックスの高さ */
     background-color: #3498db; /* 背景色 (青) */
