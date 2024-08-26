@@ -1,14 +1,6 @@
 body {
   font-size: 5px; /* ベースとなるフォントサイズを設定 */
 }
-.color-box {
-    font-size: 5px; 
-    width: 100px; /* ボックスの幅 */
-    height: 100px; /* ボックスの高さ */
-    background-color: #3498db; /* 背景色 (青) */
-    border: 1px solid #000; /* ボックスの境界線 (黒) */
-}
-
 .button-container {
   display: flex;
   justify-content: space-around; /* ボタンを等間隔に配置 */
