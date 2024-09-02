@@ -88,7 +88,7 @@
             button.classList.add('active');
 
             // Set the image source based on the selected floor
-            let imagePath = floormap_1f.svg;
+            let imagePath;
             switch (floor) {
                 case 1:
                     imagePath = "floormap_1f.svg";
@@ -107,6 +107,9 @@
             }
             document.getElementById('floorMap').src = imagePath;
         }
+         window.onload = function() {
+            changeImage(1);
+        };
     </script>
 </body>
 </html>
