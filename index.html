@@ -99,15 +99,19 @@
 
             // クリックしたボタンにactiveクラスを追加
             button.classList.add('active');
-            const floor={
-                1:<img src="./floormap_1f.svg">
-                2:<img src="./floormap_2f.svg">
-                3:<img src="./floormap_3f.svg">
-                4:<img src="./floormap_4f.svg">
-            };
+             
+      var imagePath;
+      if (floor === 1) {
+        imagePath = "floormap_1f.svg";
+      } else if (floor === 2) {
+        imagePath = "floormap_2f.svg";
+      } else if (floor === 3) {
+        imagePath = "floormap_3f.svg";
+      }else if (floor === 4) {
+        imagePath = "floormap_4f.svg";
+      }
+      <img src="'imagePath'">
 
-            // ここに画像変更のロジックを追加
-            console.log(`Selected floor: ${floor}`);
         }
     </script>
 </body>
