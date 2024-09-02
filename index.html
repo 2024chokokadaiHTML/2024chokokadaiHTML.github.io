@@ -4,47 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
     <title>choko map</title>
-</head>
-<body>
-    <style>
-        h1{
-            font-family: "Kaisei Decol", serif;
-  font-weight: 400;
-  font-style: normal;
-            font-size: 2rem;
-            margin: 20px 0;
-        }
-    </style>
-    <font><h1><center>長野工業高等学校<br>フロアマップ <br></center></h1></font>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-   <style>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
         body {
-            background-color:rgb(223,212,192);
+            background-color: rgb(223, 212, 192);
             font-size: 5px;
             margin: 0;
             padding: 0;
+            font-family: 'Kaisei Decol', serif;
         }
+
         h1 {
-            @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kaisei+Decol&display=swap');
             font-size: 2rem;
             margin: 20px 0;
+            text-align: center;
         }
-        .bu {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
+
         .button-container {
             display: flex;
             justify-content: space-around;
@@ -54,23 +36,25 @@
             white-space: nowrap;
             -webkit-overflow-scrolling: touch;
         }
+
         .button {
             font-family: 'Courier', sans-serif;
             text-align: center;
             font-size: 1.5rem;
-            border: 2px solid rgb(0, 0,0);
+            border: 2px solid rgb(0, 0, 0);
             border-radius: 20px;
-            padding: 10px 10px;
+            padding: 10px;
             color: rgb(0, 0, 0);
-            background-color: rgb(241,241,241);
+            background-color: rgb(241, 241, 241);
             margin: 0 10px;
             width: 60px;
-            margin-bottom: 20px;
             transition: background-color 0.3s;
         }
+
         .active {
-            background-color: rgb(198,129,135); /* 押したときの色 */
+            background-color: rgb(198, 129, 135); /* Pressed color */
         }
+
         @media screen and (max-width: 1119px) {
             .button-container {
                 flex-wrap: wrap;
@@ -82,36 +66,46 @@
     </style>
 </head>
 <body>
-    <div class="bu">
-        <div class="button-container">
-            <button class="button" onclick="changeImage(1,this)">1F</button>
-            <button class="button" onclick="changeImage(2,this)">2F</button>
-            <button class="button" onclick="changeImage(3,this)">3F</button>
-            <button class="button" onclick="changeImage(4,this)">4F</button>
-        </div>
+    <h1>長野工業高等学校<br>フロアマップ</h1>
+
+    <div class="button-container">
+        <button class="button" onclick="changeImage(1, this)">1F</button>
+        <button class="button" onclick="changeImage(2, this)">2F</button>
+        <button class="button" onclick="changeImage(3, this)">3F</button>
+        <button class="button" onclick="changeImage(4, this)">4F</button>
     </div>
+
+    <!-- Image to display floor maps -->
+    <img id="floorMap" src="" alt="Floor Map" style="display: block; margin: 20px auto; max-width: 100%; height: auto;">
 
     <script>
         function changeImage(floor, button) {
-            // すべてのボタンからactiveクラスを削除
+            // Remove 'active' class from all buttons
             const buttons = document.querySelectorAll('.button');
             buttons.forEach(btn => btn.classList.remove('active'));
 
-            // クリックしたボタンにactiveクラスを追加
+            // Add 'active' class to the clicked button
             button.classList.add('active');
-             
-      var imagePath;
-      if (floor === 1) {
-        imagePath = "floormap_1f.svg";
-      } else if (floor === 2) {
-        imagePath = "floormap_2f.svg";
-      } else if (floor === 3) {
-        imagePath = "floormap_3f.svg";
-      }else if (floor === 4) {
-        imagePath = "floormap_4f.svg";
-      }
-      img.src=imagePath;
 
+            // Set the image source based on the selected floor
+            let imagePath;
+            switch (floor) {
+                case 1:
+                    imagePath = "floormap_1f.svg";
+                    break;
+                case 2:
+                    imagePath = "floormap_2f.svg";
+                    break;
+                case 3:
+                    imagePath = "floormap_3f.svg";
+                    break;
+                case 4:
+                    imagePath = "floormap_4f.svg";
+                    break;
+                default:
+                    imagePath = "";
+            }
+            document.getElementById('floorMap').src = imagePath;
         }
     </script>
 </body>
