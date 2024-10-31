@@ -13,7 +13,11 @@
 
     <!-- Styles -->
     <style>
+        html {
+            height: 100%;
+        }
         body {
+            height: 100%;
             background-color: rgb(200,200,200);
             background: linear-gradient(to right, rgb(220,250,250) 20%, rgb(220,230,180) 80%);
             font-size: 5px;
@@ -64,52 +68,127 @@
                 margin: 10px;
             }
         }
+        .button-text {
+            text-decoration: none;
+            color: black;
+        }
+        .floor-map-container {
+            height: 100%;
+        }
+        .floor-map {
+            height: 100%;
+            width: 100%;
+            border: none;
+        }
+        .overlay {
+            display: none; /* 初期は非表示 */
+            position: fixed;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* 背景の透過 */
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            width: 80%; /* モーダルの幅 */
+            box-sizing: border-box;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .modal-text {
+            font-size: 1rem;
+        }
+        .modal-image {
+            width: 90%;   
+        }
+        .modal-body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .close {
+            color: #aaa;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <h1>長野工業高等学校<br>フロアマップ</h1>
 
     <div class="button-container">
-        <button class="button" onclick="changeImage(1, this)">1F</button>
-        <button class="button" onclick="changeImage(2, this)">2F</button>
-        <button class="button" onclick="changeImage(3, this)">3F</button>
-        <button class="button" onclick="changeImage(4, this)">4F</button>
+            <button class="button">
+                <a class="button-text" target="target" href="floormap_1f.html">1F</a>
+            </button>
+            <button class="button">
+                <a class="button-text" target="target" href="floormap_2f.html">2F</a>
+            </button>
+            <button class="button">
+                <a class="button-text" target="target" href="floormap_3f.html">3F</a>
+            </button>
+            <button class="button">
+                <a class="button-text" target="target" href="floormap_4f.html">4F</a>
+            </button>
+        </ul>
     </div>
     <img id="classname" src="classname.svg" alt="classname" style="display: block; margin: 20px auto; max-width: 30%; height: auto;">
     <!-- Image to display floor maps -->
-    <img id="floorMap" src="floormap_1f.svg" alt="Floor Map" style="display: block; margin: 20px auto; max-width: 100%; height: auto;">
+    <div class="floor-map-container">
+        <iframe id="childFrame" class="floor-map" src="floormap_1f.html" name="target"></iframe>
+    </div>
+    <div id="parentModal" class="overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-text">
+                    <div id="modalMessage"></div>
+                </div>
+                <div class="close" onclick="closeParentModal()">&times;</div>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" class="modal-image" src="">
+            </div>
+        </div>
+    </div>
     <script>
-        function changeImage(floor, button) {
-            // Remove 'active' class from all buttons
-            const buttons = document.querySelectorAll('.button');
-            buttons.forEach(btn => btn.classList.remove('active'));
-
-            // Add 'active' class to the clicked button
-            button.classList.add('active');
-
-            // Set the image source based on the selected floor
-            let imagePath;
-            switch (floor) {
-                case 1:
-                    imagePath = "floormap_1f.svg";
-                    break;
-                case 2:
-                    imagePath = "floormap_2f.svg";
-                    break;
-                case 3:
-                    imagePath = "floormap_3f.svg";
-                    break;
-                case 4:
-                    imagePath = "floormap_4f.svg";
-                    break;
-                default:
-                    imagePath = "";
-            }
-            document.getElementById('floorMap').src = imagePath;
+        const buttons = document.querySelectorAll('.button');
+        buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                buttons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        function openParentModal(message, image_path) {
+            var modal = document.getElementById("parentModal");
+            var modalMessage = document.getElementById("modalMessage");
+            modalMessage.textContent = message; // 受け取ったメッセージを表示
+            modalImage.src = image_path;
+            modal.style.display = "block";
         }
-         window.onload = function() {
-            changeImage(1);
-        };
+        function closeParentModal() {
+            var modal = document.getElementById("parentModal");
+            modal.style.display = "none";
+        }
+        window.addEventListener("message", (response) => {
+            if (response.data && response.data.action === "openModal") {
+                openParentModal(response.data.message, response.data.image_path);
+            }
+        }); 
     </script>
 </body>
 </html>
