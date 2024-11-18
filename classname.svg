@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1034.83 258">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c3b7ab;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke: #534741;
+      }
+
+      .cls-2 {
+        fill: #f9d0bd;
+      }
+
+      .cls-11 {
+        font-size: 21px;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14 {
+        font-family: UDDigiKyokashoN-R, 'UD Digi Kyokasho N-R';
+      }
+
+      .cls-15 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        font-size: 26.5px;
+      }
+
+      .cls-12, .cls-16 {
+        isolation: isolate;
+      }
+
+      .cls-13 {
+        fill: #231815;
+        font-size: 22.52px;
+      }
+
+      .cls-3 {
+        fill: #b9dba9;
+      }
+
+      .cls-14 {
+        font-size: 24px;
+      }
+
+      .cls-4 {
+        fill: #b2dee2;
+      }
+
+      .cls-5, .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-5, .cls-10 {
+        stroke-width: 3px;
+      }
+
+      .cls-6 {
+        fill: #eff0a8;
+        stroke: #231815;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        fill: #f3a6b3;
+      }
+
+      .cls-8 {
+        fill: #f5f4a9;
+      }
+
+      .cls-9 {
+        stroke-width: 8px;
+      }
+
+      .cls-10 {
+        stroke-dasharray: 12.53 12.53;
+      }
+    </style>
+  </defs>
+  <g id="_白背景">
+    <rect class="cls-15" x="6.92" y="4.58" width="1026.83" height="250"/>
+  </g>
+  <g id="_レイヤー_2">
+    <rect class="cls-9" x="4" y="4" width="1026.83" height="250"/>
+    <g>
+      <line class="cls-5" x1="485.74" y1="4" x2="485.74" y2="10"/>
+      <line class="cls-10" x1="485.74" y1="22.53" x2="485.74" y2="241.74"/>
+      <line class="cls-5" x1="485.74" y1="248" x2="485.74" y2="254"/>
+    </g>
+  </g>
+  <g class="cls-16">
+    <g class="cls-16">
+      <text class="cls-12" transform="translate(76.67 67)"><tspan x="0" y="0">機械工学科</tspan></text>
+    </g>
+  </g>
+  <g class="cls-16">
+    <g class="cls-16">
+      <text class="cls-12" transform="translate(295.99 66.9)"><tspan x="0" y="0">電気電子工学科</tspan></text>
+    </g>
+  </g>
+  <g class="cls-16">
+    <g class="cls-16">
+      <text class="cls-12" transform="translate(77.17 138.4)"><tspan x="0" y="0">物質化学科</tspan></text>
+    </g>
+  </g>
+  <g class="cls-16">
+    <g class="cls-16">
+      <text class="cls-12" transform="translate(296.19 138.5)"><tspan x="0" y="0">情報工学科</tspan></text>
+    </g>
+  </g>
+  <g class="cls-16">
+    <g class="cls-16">
+      <text class="cls-12" transform="translate(76.67 207.3)"><tspan x="0" y="0">土木工学科</tspan></text>
+    </g>
+  </g>
+  <g class="cls-16">
+    <g class="cls-16">
+      <text class="cls-12" transform="translate(294.69 207.1)"><tspan x="0" y="0">建築学科</tspan></text>
+    </g>
+  </g>
+  <rect class="cls-8" x="241.34" y="35.6" width="39.84" height="39.8"/>
+  <rect class="cls-7" x="23.52" y="35.6" width="39.84" height="39.8"/>
+  <rect class="cls-4" x="241.34" y="107.7" width="39.84" height="39.8"/>
+  <rect class="cls-3" x="23.52" y="107.7" width="39.84" height="39.8"/>
+  <rect class="cls-2" x="241.34" y="177.9" width="39.84" height="39.8"/>
+  <rect class="cls-1" x="23.72" y="178.1" width="39.84" height="39.8"/>
+  <text class="cls-14" transform="translate(780.86 141.68)"><tspan x="0" y="0">生徒会・係企画</tspan></text>
+  <text class="cls-14" transform="translate(567.23 138.5)"><tspan x="0" y="0">模擬店</tspan></text>
+  <text class="cls-14" transform="translate(567.23 213.69)"><tspan x="0" y="0">班・同好会企画</tspan></text>
+  <text class="cls-14" transform="translate(783.36 66.19)"><tspan x="0" y="0">専門・普通科企画</tspan></text>
+  <text class="cls-14" transform="translate(562.17 64.68)"><tspan x="0" y="0">クラス企画</tspan></text>
+  <g>
+    <circle class="cls-6" cx="526.3" cy="55.5" r="19.96"/>
+    <text class="cls-13" transform="translate(515.59 64.06)"><tspan x="0" y="0">ク</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-6" cx="526.3" cy="129.59" r="19.96"/>
+    <text class="cls-13" transform="translate(514.97 138.14)"><tspan x="0" y="0">模</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-6" cx="526.3" cy="202.44" r="19.96"/>
+    <text class="cls-13" transform="translate(515.7 210.99)"><tspan x="0" y="0">班</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-6" cx="741.23" cy="56.13" r="19.96"/>
+    <text class="cls-13" transform="translate(729.91 64.68)"><tspan x="0" y="0">科</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-6" cx="741.23" cy="132.57" r="19.96"/>
+    <text class="cls-13" transform="translate(729.35 141.12)"><tspan x="0" y="0">係</tspan></text>
+  </g>
+  <text class="cls-11" transform="translate(751.34 199.29)"><tspan x="0" y="0">※このマークがある場所は</tspan><tspan x="0" y="25.2">　詳細が確認できます</tspan></text>
+</svg>
