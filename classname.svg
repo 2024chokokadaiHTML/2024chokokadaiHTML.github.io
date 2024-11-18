@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1026.8 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c3b7ab;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke: #534741;
+      }
+
+      .cls-2 {
+        fill: #f9d0bd;
+      }
+
+      .cls-11 {
+        font-size: 21px;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14 {
+        font-family: UDDigiKyokashoN-R, 'UD Digi Kyokasho N-R';
+      }
+
+      .cls-15 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        font-size: 26.5px;
+      }
+
+      .cls-12, .cls-16 {
+        isolation: isolate;
+      }
+
+      .cls-13 {
+        fill: #231815;
+        font-size: 22.5px;
+      }
+
+      .cls-3 {
+        fill: #b9dba9;
+      }
+
+      .cls-14 {
+        font-size: 24px;
+      }
+
+      .cls-4 {
+        fill: #b2dee2;
+      }
+
+      .cls-5, .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-5, .cls-10 {
+        stroke-width: 3px;
+      }
+
+      .cls-6 {
+        fill: #eff0a8;
+        stroke: #231815;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        fill: #f3a6b3;
+      }
+
+      .cls-8 {
+        fill: #f5f4a9;
+      }
+
+      .cls-9 {
+        stroke-width: 8px;
+      }
+
+      .cls-10 {
+        stroke-dasharray: 12.5 12.5;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="_レイヤー_1" data-name="レイヤー_1">
+      <g id="_白背景">
+        <rect class="cls-15" y="0" width="775.5" height="250"/>
+      </g>
+      <g id="_レイヤー_2">
+        <rect class="cls-9" y="0" width="1026.8" height="250"/>
+        <g>
+          <line class="cls-5" x1="481.7" x2="481.7" y2="6"/>
+          <line class="cls-10" x1="481.7" y1="18.5" x2="481.7" y2="237.7"/>
+          <line class="cls-5" x1="481.7" y1="244" x2="481.7" y2="250"/>
+        </g>
+      </g>
+      <g id="_レイヤー_1-2">
+        <g class="cls-16">
+          <g class="cls-16">
+            <text class="cls-12" transform="translate(72.7 63)"><tspan x="0" y="0">機械工学科</tspan></text>
+          </g>
+        </g>
+        <g class="cls-16">
+          <g class="cls-16">
+            <text class="cls-12" transform="translate(292 62.9)"><tspan x="0" y="0">電気電子工学科</tspan></text>
+          </g>
+        </g>
+        <g class="cls-16">
+          <g class="cls-16">
+            <text class="cls-12" transform="translate(73.2 134.4)"><tspan x="0" y="0">物質化学科</tspan></text>
+          </g>
+        </g>
+        <g class="cls-16">
+          <g class="cls-16">
+            <text class="cls-12" transform="translate(292.2 134.5)"><tspan x="0" y="0">情報工学科</tspan></text>
+          </g>
+        </g>
+        <g class="cls-16">
+          <g class="cls-16">
+            <text class="cls-12" transform="translate(72.7 203.3)"><tspan x="0" y="0">土木工学科</tspan></text>
+          </g>
+        </g>
+        <g class="cls-16">
+          <g class="cls-16">
+            <text class="cls-12" transform="translate(290.7 203.1)"><tspan x="0" y="0">建築学科</tspan></text>
+          </g>
+        </g>
+        <rect class="cls-8" x="237.3" y="31.6" width="39.8" height="39.8"/>
+        <rect class="cls-7" x="19.5" y="31.6" width="39.8" height="39.8"/>
+        <rect class="cls-4" x="237.3" y="103.7" width="39.8" height="39.8"/>
+        <rect class="cls-3" x="19.5" y="103.7" width="39.8" height="39.8"/>
+        <rect class="cls-2" x="237.3" y="173.9" width="39.8" height="39.8"/>
+        <rect class="cls-1" x="19.7" y="174.1" width="39.8" height="39.8"/>
+        <text class="cls-14" transform="translate(776.9 137.7)"><tspan x="0" y="0">生徒会・係企画</tspan></text>
+        <text class="cls-14" transform="translate(559.3 136.3)"><tspan x="0" y="0">模擬店</tspan></text>
+        <text class="cls-14" transform="translate(557.2 209.7)"><tspan x="0" y="0">班・同好会企画</tspan></text>
+        <text class="cls-14" transform="translate(775.5 62.2)"><tspan x="0" y="0">専門・普通科企画</tspan></text>
+        <text class="cls-14" transform="translate(558.3 62.2)"><tspan x="0" y="0">クラス企画</tspan></text>
+      </g>
+      <g>
+        <circle class="cls-6" cx="522.3" cy="51.5" r="20"/>
+        <text/>
+        <text class="cls-13" transform="translate(511.6 60.1)"><tspan x="0" y="0">ク</tspan></text>
+      </g>
+      <g>
+        <circle class="cls-6" cx="520.2" cy="125.6" r="20"/>
+        <text class="cls-13" transform="translate(508.9 134.1)"><tspan x="0" y="0">模</tspan></text>
+      </g>
+      <g>
+        <circle class="cls-6" cx="521.4" cy="198.4" r="20"/>
+        <text/>
+        <text class="cls-13" transform="translate(510.8 207)"><tspan x="0" y="0">班</tspan></text>
+      </g>
+      <g>
+        <circle class="cls-6" cx="737.2" cy="52.1" r="20"/>
+        <text class="cls-13" transform="translate(725.9 60.7)"><tspan x="0" y="0">科</tspan></text>
+      </g>
+      <g>
+        <circle class="cls-6" cx="737.2" cy="128.6" r="20"/>
+        <text class="cls-13" transform="translate(725.4 137.1)"><tspan x="0" y="0">係</tspan></text>
+      </g>
+      <text class="cls-11" transform="translate(747.3 195.3)"><tspan x="0" y="0">※このマークがある場所は</tspan><tspan x="0" y="25.2">　詳細が見れます</tspan></text>
+    </g>
+  </g>
+</svg>
