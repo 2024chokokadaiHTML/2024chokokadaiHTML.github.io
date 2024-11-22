@@ -913,23 +913,23 @@
     <text class="cls-47" transform="translate(489.5 469.38)"><tspan class="cls-52"><tspan x="0" y="0">H21</tspan></tspan><tspan class="cls-52"><tspan x="-12" y="19.2">建築科</tspan></tspan><tspan class="cls-70"><tspan x="-10.5" y="37.2">研究室</tspan></tspan></text>
     <text class="cls-50" transform="translate(220.25 651)"><tspan x="0" y="0">I24</tspan></text>
     <text class="cls-50" transform="translate(311.5 661.56) scale(.84 1)"><tspan x="0" y="0">I23</tspan></text>
-    <text class="cls-47" transform="translate(436.09 632.28)"><tspan class="cls-65"><tspan x="0" y="0">I21　　</tspan></tspan><tspan class="cls-63"><tspan x="-12.25" y="16.8">せん孔実習室</tspan></tspan><tspan class="cls-63"><tspan x="-19.25" y="33.6">【情報工学科】</tspan></tspan><tspan class="cls-63"><tspan x="-19.25" y="50.4">【情報工学班】</tspan></tspan></text>
+    <text class="cls-47" transform="translate(436.09 632.28)" onclick="alert('オリジナルTシャツ・オリジナル印鑑の製作\nオリジナルTシャツ、印鑑の製作を行います！')><tspan class="cls-65"><tspan x="0" y="0">I21　　</tspan></tspan><tspan class="cls-63"><tspan x="-12.25" y="16.8">せん孔実習室</tspan></tspan><tspan class="cls-63"><tspan x="-19.25" y="33.6">【情報工学科】</tspan></tspan><tspan class="cls-63"><tspan x="-19.25" y="50.4">【情報工学班】</tspan></tspan></text>
     <text class="cls-50" transform="translate(615.5 651.06)"><tspan x="0" y="0">E26</tspan></text>
     <text class="cls-50" transform="translate(728.27 668.36)"><tspan x="0" y="0">E25</tspan></text>
     <text class="cls-50" transform="translate(779.11 668.2)"><tspan x="0" y="0">E24</tspan></text>
     <text class="cls-50" transform="translate(831.19 668.2)"><tspan x="0" y="0">E23</tspan></text>
     <text class="cls-47" transform="translate(879.99 650.95)"><tspan class="cls-52"><tspan x="0" y="0">E22</tspan></tspan><tspan class="cls-70"><tspan x="-10.5" y="18">電気科</tspan></tspan><tspan class="cls-63"><tspan x="-9" y="34.8">研究室</tspan></tspan></text>
-    <text class="cls-47" transform="translate(946.22 654.57)"><tspan class="cls-63"><tspan x="0" y="0">E21　</tspan></tspan><tspan class="cls-66"><tspan x="-12.5" y="14.4">電力実習室</tspan></tspan><tspan class="cls-68"><tspan x="-27.5" y="26.4">【電気電子工学科】</tspan></tspan></text>
+    <text class="cls-47" transform="translate(946.22 654.57)" onclick="alert('電子工作体験、科紹介展示\n科の紹介展示をします！')><tspan class="cls-63"><tspan x="0" y="0">E21　</tspan></tspan><tspan class="cls-66"><tspan x="-12.5" y="14.4">電力実習室</tspan></tspan><tspan class="cls-68"><tspan x="-27.5" y="26.4">【電気電子工学科】</tspan></tspan></text>
     <text class="cls-50" transform="translate(605.13 437.94)"><tspan x="0" y="0">D27</tspan></text>
     <text class="cls-50" transform="translate(655.33 505.25)"><tspan x="0" y="0">D26</tspan></text>
     <text class="cls-47" transform="translate(741.75 443.12)"><tspan class="cls-52"><tspan x="0" y="0">D25</tspan></tspan><tspan class="cls-56"><tspan x="-20.5" y="15.6">物質化学科</tspan></tspan><tspan class="cls-56"><tspan x="-7.5" y="31.2">研究室</tspan></tspan></text>
-    <text class="cls-47" transform="translate(820.12 441.49)"><tspan class="cls-63"><tspan x="0" y="0">D23　</tspan></tspan><tspan class="cls-66"><tspan x="-24.5" y="14.4">物理計測実習室</tspan></tspan><tspan class="cls-66"><tspan x="-24.5" y="28.8">【物質化学科】</tspan></tspan></text>
+    <text class="cls-47" transform="translate(820.12 441.49)" onclick="alert('七宝焼きの体験・製作\n七宝焼きの体験・無料配布を行います！')><tspan class="cls-63"><tspan x="0" y="0">D23　</tspan></tspan><tspan class="cls-66"><tspan x="-24.5" y="14.4">物理計測実習室</tspan></tspan><tspan class="cls-66"><tspan x="-24.5" y="28.8">【物質化学科】</tspan></tspan></text>
     <text class="cls-50" transform="translate(909.87 455.44)"><tspan x="0" y="0">D22</tspan></text>
     <text class="cls-47" transform="translate(967.19 439.81)"><tspan class="cls-52"><tspan x="0" y="0">D21</tspan></tspan><tspan class="cls-63"><tspan x="-9" y="16.8">数学科</tspan></tspan><tspan class="cls-56"><tspan x="-7.5" y="32.4">研究室</tspan></tspan></text>
     <text class="cls-47" transform="translate(1158 346.23)"><tspan class="cls-63"><tspan x="0" y="0">A25</tspan></tspan><tspan class="cls-52"><tspan x="-13.5" y="19.2">定時制</tspan></tspan><tspan class="cls-52"><tspan x="-13.5" y="38.4">職員室</tspan></tspan></text>
     <text class="cls-50" transform="translate(1216.05 322.14)"><tspan x="0" y="0">A25</tspan></text>
     <text class="cls-47" transform="translate(1273.47 356.17)"><tspan class="cls-63"><tspan x="0" y="0">A23</tspan></tspan><tspan class="cls-58"><tspan x="-16.5" y="21.6">教務室</tspan></tspan></text>
-    <text class="cls-39" transform="translate(1438 330.16)"><tspan x="0" y="0">A21　</tspan><tspan x="-4" y="19.2">会議室</tspan><tspan x="-52" y="38.4">【電気電子工学班】</tspan></text>
+    <text class="cls-39" transform="translate(1438 330.16)" onclick="alert('ロボコン in 長工\nロボット操作の展示と体験！（景品あり）')><tspan x="0" y="0">A21　</tspan><tspan x="-4" y="19.2">会議室</tspan><tspan x="-52" y="38.4">【電気電子工学班】</tspan></text>
     <text class="cls-50" transform="translate(1397.5 668.35)"><tspan x="0" y="0">B22</tspan></text>
     <text class="cls-47" transform="translate(1462 644.5)"><tspan class="cls-52"><tspan x="0" y="0">B21</tspan></tspan><tspan class="cls-58"><tspan x="-33" y="21.6">物理実験室</tspan></tspan></text>
     <g>
@@ -1081,7 +1081,7 @@
       <ellipse class="cls-14" cx="1479.33" cy="324.08" rx="10.8" ry="10.64"/>
       <text class="cls-41" transform="translate(1473.54 328.64) scale(1.02 1)"><tspan x="0" y="0">班</tspan></text>
     </g>
-    <text class="cls-51" transform="translate(1014.11 491.22) scale(.92 1)"><tspan x="0" y="0">電</tspan><tspan x="0" y="14.4">気</tspan><tspan x="0" y="28.8">電</tspan><tspan x="0" y="43.2">子</tspan><tspan x="0" y="57.6">工</tspan><tspan x="0" y="72">学</tspan><tspan x="0" y="86.4">科</tspan></text>
+    <text class="cls-51" transform="translate(1014.11 491.22) scale(.92 1)" onclick="alert('電子工作体験、科紹介展示\nはんだ付けによる電子回路を作ります！')><tspan x="0" y="0">電</tspan><tspan x="0" y="14.4">気</tspan><tspan x="0" y="28.8">電</tspan><tspan x="0" y="43.2">子</tspan><tspan x="0" y="57.6">工</tspan><tspan x="0" y="72">学</tspan><tspan x="0" y="86.4">科</tspan></text>
     <g>
       <polyline class="cls-6" points="1022.52 478.5 1028.52 478.5 1028.52 484.5"/>
       <line class="cls-18" x1="1028.52" y1="496.73" x2="1028.52" y2="588.48"/>
@@ -1090,7 +1090,7 @@
       <line class="cls-18" x1="1010.72" y1="582.37" x2="1010.72" y2="490.61"/>
       <polyline class="cls-6" points="1010.72 484.5 1010.72 478.5 1016.72 478.5"/>
     </g>
-    <text class="cls-51" transform="translate(1045.99 400.02) scale(.92 1)"><tspan x="0" y="0">建</tspan><tspan x="0" y="14.4">築</tspan><tspan x="0" y="28.8">学</tspan><tspan x="0" y="43.2">科</tspan></text>
+    <text class="cls-51" transform="translate(1045.99 400.02) scale(.92 1)" onclick="alert('作品展示\n作品展示をします！')><tspan x="0" y="0">建</tspan><tspan x="0" y="14.4">築</tspan><tspan x="0" y="28.8">学</tspan><tspan x="0" y="43.2">科</tspan></text>
     <g>
       <polyline class="cls-6" points="1054.4 387.68 1060.4 387.68 1060.4 393.68"/>
       <line class="cls-13" x1="1060.4" y1="406.53" x2="1060.4" y2="451.49"/>
@@ -1099,7 +1099,7 @@
       <line class="cls-13" x1="1042.6" y1="445.07" x2="1042.6" y2="400.1"/>
       <polyline class="cls-6" points="1042.6 393.68 1042.6 387.68 1048.6 387.68"/>
     </g>
-    <text class="cls-51" transform="translate(1045.99 495.78) scale(.92 1)"><tspan x="0" y="0">建</tspan><tspan x="0" y="14.4">築</tspan><tspan x="0" y="28.8">学</tspan><tspan x="0" y="43.2">班</tspan></text>
+    <text class="cls-51" transform="translate(1045.99 495.78) scale(.92 1)" onclick="alert('city road\nボールをゴールに入れて景品をゲットしよう！')><tspan x="0" y="0">建</tspan><tspan x="0" y="14.4">築</tspan><tspan x="0" y="28.8">学</tspan><tspan x="0" y="43.2">班</tspan></text>
     <g>
       <polyline class="cls-6" points="1054.4 483.44 1060.4 483.44 1060.4 489.44"/>
       <line class="cls-2" x1="1060.4" y1="502.36" x2="1060.4" y2="547.58"/>
@@ -1129,27 +1129,27 @@
       <text class="cls-44" transform="translate(850.67 439.23)"><tspan x="0" y="0">科</tspan></text>
     </g>
     <g>
-      <text class="cls-50" transform="translate(1141.4 661.08)"><tspan x="0" y="0">B26　</tspan><tspan x="-7" y="16.8">電気2年</tspan></text>
+      <text class="cls-50" transform="translate(1141.4 661.08)" onclick="alert('遊べるよ\n様々なアトラクションを遊んで楽しもう！')><tspan x="0" y="0">B26　</tspan><tspan x="-7" y="16.8">電気2年</tspan></text>
       <g>
         <circle class="cls-14" cx="1175.5" cy="655.76" r="7.14"/>
         <text class="cls-44" transform="translate(1171.66 658.82)"><tspan x="0" y="0">ク</tspan></text>
       </g>
     </g>
     <g>
-      <text class="cls-50" transform="translate(1197.69 661.01)"><tspan x="0" y="0">B25　</tspan><tspan x="-7" y="16.8">建築2年</tspan></text>
+      <text class="cls-50" transform="translate(1197.69 661.01)" onclick="alert('映画、マシュマロタワー\n映画の上映とマシュマロチャレンジ！')><tspan x="0" y="0">B25　</tspan><tspan x="-7" y="16.8">建築2年</tspan></text>
       <g>
         <circle class="cls-14" cx="1231.78" cy="655.88" r="7.14"/>
         <text class="cls-44" transform="translate(1227.95 658.94)"><tspan x="0" y="0">ク</tspan></text>
       </g>
     </g>
     <g>
-      <text class="cls-50" transform="translate(1254.07 652.9)"><tspan x="0" y="0">B24　</tspan><tspan x="-3.5" y="16.8">選択Ⅲ</tspan><tspan x="-17.5" y="33.6">【文芸班】</tspan></text>
+      <text class="cls-50" transform="translate(1254.07 652.9)" onclick="alert('活動成果物の展示\nしりとりパネル・ディベートボード 格言集・日本語クイズ')><tspan x="0" y="0">B24　</tspan><tspan x="-3.5" y="16.8">選択Ⅲ</tspan><tspan x="-17.5" y="33.6">【文芸班】</tspan></text>
       <g>
         <circle class="cls-14" cx="1289.57" cy="647.59" r="7.14"/>
         <text class="cls-44" transform="translate(1285.73 650.65)"><tspan x="0" y="0">ク</tspan></text>
       </g>
     </g>
-    <text class="cls-50" transform="translate(1309.7 661.68)"><tspan x="0" y="0">B23　</tspan><tspan x="-7" y="16.8">土木1年</tspan></text>
+    <text class="cls-50" transform="translate(1309.7 661.68)" onclick="alert('迷路\n道を歩いて脱出しよう！')><tspan x="0" y="0">B23　</tspan><tspan x="-7" y="16.8">土木1年</tspan></text>
     <g>
       <circle class="cls-14" cx="1343.79" cy="655.16" r="7.14"/>
       <text class="cls-44" transform="translate(1339.96 658.23)"><tspan x="0" y="0">ク</tspan></text>
