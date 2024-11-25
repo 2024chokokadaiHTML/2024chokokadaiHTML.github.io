@@ -909,7 +909,7 @@
     <text class="cls-31" transform="translate(1420.76 501.33) scale(.92 1)" onclick="alert('Chocolate Banana\nその場で出来立てが食べれます!')"><tspan x="0" y="0">建築3年</tspan></text>
     <text class="cls-31" transform="translate(1473.15 500.41) scale(.92 1)" onclick="alert('焼きそば\n鉄板で本格的な味を再現!!')"><tspan x="0" y="0">情報3年</tspan></text>
     <text class="cls-31" transform="translate(1473.15 461.84) scale(.92 1)" onclick="alert('ミスタードーナツ長工店\nあのミスドが長工に!?')"><tspan x="0" y="0">物化3年</tspan></text>
-    <text class="cls-31" transform="translate(1473.95 577.26) scale(.92 1)" onclick="alert('カツン！チュロリン！フィエスタ！\nメンチカツ、チュロスの販売です\n甘い＆しょっぱいで無限ループ!?')"><tspan x="0" y="0">機械3年</tspan></text>
+    <text class="cls-31" transform="translate(1473.95 577.26) scale(.92 1)" onclick="alert('カツン！チュロリン！フィエスタ！\nメンチカツ、チュロスの販売です\n甘い&amp;しょっぱいで無限ループ!?')"><tspan x="0" y="0">機械3年</tspan></text>
     <text class="cls-25" transform="translate(1257.54 441) scale(.92 1)" onclick="alert('YFステージ企画\n長工生の雄姿をご覧ください!')"><tspan x="0" y="0">YFステージ</tspan></text>
     <line class="cls-7" x1="571.97" y1="34.98" x2="1104" y2="34.98"/>
     <line class="cls-7" x1="1165.66" y1="34.98" x2="1307" y2="34.98"/>
