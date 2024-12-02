@@ -949,7 +949,7 @@
     <rect class="cls-4" x="1295.24" y="951.44" width="139.51" height="355.06" transform="translate(236.03 2493.97) rotate(-90)"/>
     <text class="cls-18" transform="translate(1217.97 1118.36) scale(.92 1)" onclick="alert('ソフトボール対決\n参加者が攻撃で、野球班の守備を体験できます。\nソフトボールを楽しもう!')"><tspan x="0" y="0">グラウンド北東側</tspan><tspan x="0" y="48">【硬式野球班】　</tspan></text>
     <rect class="cls-4" x="296.09" y="1120.72" width="139.51" height="355.06" transform="translate(-932.41 1664.1) rotate(-90)"/>
-    <text class="cls-18" transform="translate(218.81 1287.64) scale(.92 1)"><tspan x="0" y="0">グラウンド南西側</tspan><tspan x="0" y="48">【ラグビー班】　</tspan></text>
+    <text class="cls-18" transform="translate(218.81 1287.64) scale(.92 1)" onclick="alert('芝グラウンド開放\n解放感あふれるグラウンドで遊びまわろう！')"><tspan x="0" y="0">グラウンド南西側</tspan><tspan x="0" y="48">【ラグビー班】　</tspan></text>
     <rect class="cls-4" x="1479.39" y="165.85" width="138.24" height="32.01" transform="translate(1366.65 1730.36) rotate(-90)"/>
     <text class="cls-31" transform="translate(1542.99 126.5) scale(.92 1)" onclick="alert('献血\n日曜日のみ行っています。\n参加するとクッキーがもらえるよ！')"><tspan x="0" y="0">ボ</tspan><tspan x="0" y="14.4">ラ</tspan><tspan x="0" y="28.8">ン</tspan><tspan x="0" y="43.2">テ</tspan><tspan x="0" y="57.6">ィ</tspan><tspan x="0" y="72">ア</tspan><tspan x="0" y="86.4">企</tspan><tspan x="0" y="100.8">画</tspan></text>
     <text class="cls-30" transform="translate(1142.6 661.92) scale(.92 1)" onclick="alert('鳴らすな!!!!!\n音を鳴らさないように素早く進もう!!')"><tspan x="0" y="0">B16　</tspan><tspan x="-7" y="16.8">建築1年</tspan></text>
