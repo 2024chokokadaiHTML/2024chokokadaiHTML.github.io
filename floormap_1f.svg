@@ -748,7 +748,7 @@
     <text class="cls-30" transform="translate(728.33 253.29)"><tspan x="0" y="0">C14</tspan></text>
     <text class="cls-30" transform="translate(767.99 253.48)"><tspan x="0" y="0">C13</tspan></text>
     <text class="cls-27" transform="translate(823.96 224.89)" onclick="alert('測量の歴史と測量機器\n測量について学んでみよう')"><tspan class="cls-48"><tspan x="0" y="0">C12　</tspan></tspan><tspan class="cls-48"><tspan x="-17.5" y="16.8">土質実験室</tspan></tspan><tspan class="cls-40"><tspan x="-28" y="32.4">【土木工学班】</tspan></tspan></text>
-    <text class="cls-27" transform="translate(926.33 224.89)"onclick="alert('実験模型つくり\n橋などの模型の展示が行われています！')"><tspan class="cls-48"><tspan x="0" y="0">C11　</tspan></tspan><tspan class="cls-48"><tspan x="-17.5" y="16.8">材料実験室</tspan></tspan><tspan class="cls-40"><tspan x="-28" y="32.4">【土木工学班】</tspan></tspan></text>
+    <text class="cls-27" transform="translate(926.33 224.89)" onclick="alert('実験模型つくり\n橋などの模型の展示が行われています！')"><tspan class="cls-48"><tspan x="0" y="0">C11　</tspan></tspan><tspan class="cls-48"><tspan x="-17.5" y="16.8">材料実験室</tspan></tspan><tspan class="cls-40"><tspan x="-28" y="32.4">【土木工学班】</tspan></tspan></text>
     <text class="cls-30" transform="translate(190.63 263.56)"><tspan x="0" y="0">G15</tspan></text>
     <text class="cls-30" transform="translate(276.92 263.81)"><tspan x="0" y="0">G14</tspan></text>
     <text class="cls-30" transform="translate(346.03 263.56)"><tspan x="0" y="0">G13</tspan></text>
