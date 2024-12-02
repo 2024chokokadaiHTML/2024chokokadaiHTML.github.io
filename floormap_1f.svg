@@ -764,7 +764,7 @@
     <text class="cls-30" transform="translate(459.36 487.23)"><tspan x="0" y="0">H11</tspan></text>
     <text class="cls-30" transform="translate(203.81 651.18)"><tspan x="0" y="0">I13</tspan></text>
     <text class="cls-27" transform="translate(258.67 652.54)"><tspan class="cls-39"><tspan x="0" y="0">I12</tspan></tspan><tspan class="cls-46"><tspan x="-12.5" y="13.2">情報工学科</tspan></tspan><tspan class="cls-46"><tspan x="-1.5" y="26.4">研究室</tspan></tspan></text>
-    <text class="cls-21" transform="translate(445.18 642.33)"><tspan x="0" y="0">I11　</tspan><tspan x="-42.75" y="22.8">【情報工学科】</tspan></text>
+    <text class="cls-21" transform="translate(445.18 642.33)" onclick="alert('オリジナル印鑑の作成\n自分だけの印鑑を作ってみよう')"><tspan x="0" y="0">I11　</tspan><tspan x="-42.75" y="22.8">【情報工学科】</tspan></text>
     <text class="cls-30" transform="translate(385.91 869.75)"><tspan x="0" y="0">F18</tspan></text>
     <text class="cls-30" transform="translate(503.1 869.49)"><tspan x="0" y="0">F16</tspan></text>
     <text class="cls-30" transform="translate(571.06 869.49)"><tspan x="0" y="0">F15</tspan></text>
