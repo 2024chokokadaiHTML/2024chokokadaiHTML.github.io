@@ -86,9 +86,9 @@
     </style>
 </head>
 <body>
-    <h1>長野工業高等学校<br>学校開放フロアマップ</h1>
-    <h2>開祭期間　令和6年　10月5日(土)~10月6日(<day-sunday>日</day-sunday>)<br>両日とも10:00~15:00</h2>
-    <h3>・フロアマップをPDFで見る&nbsp;
+    <h1>長野工業高等学校<br>学校開放フロアマップ</h1><!--－タイトルを表示-->
+    <h2>開祭期間　令和6年　10月5日(土)~10月6日(<day-sunday>日</day-sunday>)<br>両日とも10:00~15:00</h2><!--日時の表示-->
+    <h3>・フロアマップをPDFで見る&nbsp;<!--以下、マップをPDFでダウンロードする機能-->
     <a href="pdf_map/floormap_1f.pdf" target="_blank">1F</a>
     &nbsp;&nbsp;
     <a href="pdf_map/floormap_2f.pdf" target="_blank">2F</a>
@@ -97,12 +97,13 @@
     &nbsp;&nbsp;
     <a href="pdf_map/floormap_4f.pdf" target="_blank">4F</a></h3>
     
-    <div class="button-container">
+    <div class="button-container"><!--以下、ボタンの動作規定-->
         <button class="button" onclick="changeImage(1, this)">1F</button>
         <button class="button" onclick="changeImage(2, this)">2F</button>
         <button class="button" onclick="changeImage(3, this)">3F</button>
         <button class="button" onclick="changeImage(4, this)">4F</button>
     </div>
+    <!--以下、凡例とマップの画像挿入-->
     <img id="classname" src="classname.svg" alt="classname" style="display: block; margin: 20px auto; max-width: 70%; height: auto;">
     <!-- Image to display floor maps -->
      <object id="floorMap" data="floormap_1f.svg" alt="Floor Map" style="display: block; margin: 20px auto; max-width: 100%; height: auto;">
